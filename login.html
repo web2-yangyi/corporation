@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title></title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <button class="login_btn1">会员登录</button>
+    <div class="login_bg">
+        <div id="logo">
+            <img src="img/logo.png" alt=""/>
+        </div>
+        <form action="">
+            <div class="userName">
+                <lable>用户名</lable>
+                <input type="text" name="name" placeholder="请输入手机号" pattern="[0-9A-Za-z]{6,16}" required maxlength="11"/>
+            </div>
+            <div class="passWord">
+                <lable>密&nbsp;&nbsp;&nbsp;码</lable>
+                <input type="password" name="password" placeholder="请输入密码" pattern="[0-9A-Za-z]{6,25}" required id="password" maxlength="6"/>
+            </div>
+            <div class="choose_box">
+                <div>
+                    <img src="img/checkbox_normal.png" id="checkbox_normal"/>
+                    <img src="img/checkbox_check.png" style="display: none;" id="checkbox_check"/>
+                    <span>记住密码</span>
+                </div>
+                <a href="newPassword.html">忘记密码?</a>
+            </div>
+            <button id="login_btn" type="submit">登&nbsp;&nbsp;录</button>
+        </form>  
+    </div>
+</body>
+</html>

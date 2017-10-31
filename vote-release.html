@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		 <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<link rel="stylesheet" href="css/common.css"/>
+		<link rel="stylesheet" href="css/news-release.css"/>
+		<script src="js/jquery-1.11.1.min.js"></script>
+	</head>
+	<body style="padding-bottom: 51px;">
+	 <div class="page" style="padding-top: 50px;">
+		<!--头部代码-->
+		<header id="header-index" class="commheader" style="margin-top: -50px;">
+            <div class="index_head">
+                <a  href="my-vote.html" id="arrow-left">
+                    <img src="img/arrow-left.png"/>
+                </a>
+                <p class="magnifier" id="magnifier-txt">发投票</p>
+                <a class="notice" href="my-vote.html" id="more">
+                     <p>保存</p>
+                </a>
+            </div>
+            <div class="info">
+   			<span>我的</span>
+   			<div class="nav nav-border"></div>
+		</div>
+       </header>
+		<!--内容部分-->
+		<div>
+			<form>
+				<div class="password-bnt">
+					<span>编号</span><input type="text"  placeholder="点击输入参赛编号..." maxlength="10" autocapitalize="off"/>
+				</div>
+				<div class="password-bnt">
+					<span>姓名</span><input type="text"  placeholder="点击输入姓名..." maxlength="10" autocapitalize="off"/>
+				</div>
+				<div class="password-bnt">
+					<span>宣言</span><input type="text"  placeholder="点击输入15字以内参赛宣言..." maxlength="15" autocapitalize="off"/>
+				</div>
+			</form>	
+				<div class="append-bnt-box" >
+					<a href="javascript:void(0)" class="add-txt"  style="position: relative; z-index: 1;" onclick="addDiv()">
+						添&nbsp;&nbsp;加
+					</a>
+					<!--<div class="file-img-box">
+						<input id="file-img" type="file"  multiple="" accept="image/jpeg,.jpg,.jpeg,image/gif,.gif" >
+					</div>-->
+				</div>
+			
+		</div>
+		
+		<div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+  	<div class="am-list-news-bd">
+  		<ul class="am-list clearfix" id="cnt">
+      		
+      		
+  		</ul>
+  	</div>
+   </div>
+		
+   </div> 
+       <script>
+      /* head事件*/
+		$(function(){
+			 $(".code").click(function(){
+  		$(".info").toggle();
+		});
+
+		});
+		
+		
+		/*动态创建发布*/
+	function addDiv(){
+  	var e = this.ele = document.createElement("li");
+    var s = e.style;
+    e.className = "list clearfix";
+    
+    
+    var deleteDiv = document.createElement("div");
+    deleteDiv.className = "deleteDiv";
+    e.appendChild(deleteDiv);
+    
+    var imgele = document.createElement("img");
+    imgele.src = "img/delete-bnt_03.png";
+    imgele.className = "pimg";
+    deleteDiv.appendChild(imgele);
+    
+    var allDiv = document.createElement("div");
+    allDiv.className = "allDiv clearfix";
+    e.appendChild(allDiv);
+    
+    var rightDiv = document.createElement("div");
+    rightDiv.className = "fl rightdiv";
+    allDiv.appendChild(rightDiv);
+    
+    var imgs = document.createElement("img");
+    imgs.src = "img/ui-write-@2x.png";
+    imgs.className = "imgs";
+    rightDiv.appendChild(imgs);
+
+    
+    var rightinput = document.createElement("input");
+    rightinput.className = "rightinput";
+    rightinput.type="file";
+    rightinput.name="file";
+    rightinput.id="filess";   
+    rightinput.accept="image/*";
+    rightDiv.appendChild(rightinput);
+    
+   
+    var leftDiv = document.createElement("div");
+    leftDiv.className = "fl leftDiv";
+    allDiv.appendChild(leftDiv);
+    
+    var a = document.createElement("a");
+    a.href="edit-text.html";
+    leftDiv.appendChild(a);
+    
+  	var txt = document.createElement("p");
+    txt.className = "txt";
+    txt.innerHTML="点击输入文字"
+    a.appendChild(txt);
+    
+    var cnt=document.getElementById("cnt");
+    cnt.appendChild(e);
+    
+    deleteDiv.onclick=function(){
+    	var thislist=this.parentNode;
+    	thislist.style.opacity = "0";
+      	thislist.style.height = "0px";
+      	thislist.style["margin"] = "0px";
+      	setTimeout(function(){
+        thislist.parentNode.removeChild(thislist); 
+      },1000); 
+    }
+     rightinput.onchange=function() {
+	var file =this.files[0];
+	var portrait = this.previousElementSibling; 
+	var reader = new FileReader();
+	reader.onloadend = function () {
+	portrait.src = reader.result;
+	}
+	if (file) {
+	reader.readAsDataURL(file);
+	} else {
+	portrait.src ="img/ui-write-@2x.png";
+	}
+
+}
+  }
+    </script>
+	</body>
+</html>
