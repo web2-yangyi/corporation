@@ -1,0 +1,156 @@
+#arrow-left img{
+    height: 22px;
+}
+#arrow-left {
+	float: left;
+    width: 10%;
+    text-align: center;
+    padding-top: 14px;
+}
+
+#magnifier-txt{
+	width: 80%;
+}
+.course-detail{
+	background: #FFFFFF;
+	padding: 10px 20px;
+	overflow: hidden;
+	width: 100%;
+}
+.course-detail p{
+	line-height: 2rem;
+}
+.course-pink{
+	color:#E97CA1 ;
+}
+.sign-bnt{
+	display: block;
+	height: 30px;
+	width: 70px;
+	border-radius: 6px;
+	background:#CCCCCC;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	clear: both;
+}
+.fl{
+	float: left;
+	width:15%;
+	line-height: 26px;
+}
+.fr{
+	float: left;
+	width:85%;
+	line-height: 26px;
+}
+.course-place{
+	margin-bottom: 10px;
+}
+.course-free{
+	color: #E97CA1;
+}
+@media screen and (min-width:321px) and (max-width:413px){
+.fl{
+    width:13%;
+}
+.fr{
+    width:87%;
+}
+}
+@media screen and (min-width:414px){
+.fl{
+    width:11%;
+}
+.fr{
+    width:89%;
+}
+}
+
+
+
+#arrow-left img{
+    height: 22px;
+}
+#arrow-left {
+	float: left;
+    width: 10%;
+    text-align: center;
+    padding-top: 14px;
+}
+
+#magnifier-txt{
+	width: 80%;
+}
+.am-list-news-hd .am-list-news-more {
+    height: 2rem;
+    line-height: 2rem;
+    color: #888888;
+    font-size: 16px;
+}
+.am-fr {
+    float: right;
+}
+.am-u-sm-4{
+	float: right;
+	width: 20%;
+	position: relative;
+}
+
+.am-u-sm-4 img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.am-list-item-hd{
+	margin-bottom: 10px;
+}
+.am-list-item-hd a{
+	color: #333333;
+}
+.am-list-item-desced{
+	background: #FFFFFF;
+	border-bottom: 1px solid #e5e5e5;
+	padding-top: 7px;
+	
+}
+.am-list-item-desceds{
+	background: #FFFFFF;
+	padding-top: 7px;
+	border-bottom: 1px solid #e5e5e5;
+	
+}
+.am-list-item-descedss{
+	background: #FFFFFF;
+	padding-top: 7px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-top: 20px;
+}
+.am-all{
+	margin: 2px 10px 6px 10px;
+}
+.am-list-item-text{
+	color: #666;
+	line-height: 60px;
+    font-size: 16px;
+}
+.am-list-item-text span{
+	color: #333;
+}
+#last-desceds{
+	border: none;
+}
+#magnifier {
+    width: 100%;
+}
+.am-list-main{
+	float: left;
+	width: 20%;
+	min-height: 49px;
+}
+.am-list-news-txt{
+	color: #888888;
+}
+.am-list-news-bd{
+	margin-top: 20px;
+}

@@ -1,0 +1,71 @@
+/*内容代码*/
+
+
+.am-list-news-hd .am-list-news-more {
+    height: 2rem;
+    line-height: 2rem;
+    color: #888888;
+    font-size: 13px;
+}
+.am-fr {
+    float: right;
+}
+.am-u-sm-4{
+	float: left;
+	width: 33.33333333%;
+	float: left;
+	position: relative;
+}
+
+.am-u-sm-8{
+	float: right;
+	width: 64.66666667%;
+	min-height: 49px;
+    overflow: hidden;
+}
+
+.am-u-sm-4 img {
+    width: 100%;
+    display: block;
+}
+.am-list-item-hd{
+	margin-bottom: 10px;
+}
+.am-list-item-hd a{
+	color: #333333;
+}
+.am-list-item-desced{
+	background: #FFFFFF;
+	margin-bottom: 20px;
+	
+}
+.am-all{
+	margin: 0 10px 6px 10px;
+}
+.am-list-item-text{
+	color: #666;
+	line-height: 22px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.am-list-item-text span{
+	color: #333;
+}
+.am-box{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 50px;
+    padding-top: 30px;
+    box-sizing: content-box;
+    font-size: 15px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%);
+    color: #FFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}

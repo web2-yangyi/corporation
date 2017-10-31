@@ -1,0 +1,132 @@
+.login_btn1{
+    width: 100%;
+    display: block;
+    padding:3% 0 ;
+    background: #e97ca1;
+    border: 0;
+    font-size: 1.4em;
+    font-family: "Microsoft YaHei";
+    color:white;
+	z-index:9999;
+	position:absolute;
+}
+.login_bg{
+    width:100%;
+    min-height: 100%;
+    text-align: center;
+    background: #f8f8f8;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#logo{
+    margin: 20% auto;
+    width: 50.25%;
+}
+img{
+    width: 100%;
+}
+form{
+    width: 90%;
+    margin: -13% auto;
+    text-align: left;
+}
+form div.userName,form div.passWord{
+    border: 1px solid #d9d9d9;
+    padding:4.5% 0 4% 3%;
+    height: 22%;
+    background: #ffffff;
+}
+form div.userName{
+    border-radius: 4px;
+}
+form div.passWord{
+   margin-top: 5%;
+   border-radius: 4px;
+}
+form div.userName input,form div.passWord input{
+    width: 68%;
+    height: 80%;
+    border:none;
+    background: transparent;
+    font-size: 1em;
+    font-family: "Microsoft YaHei";
+    color: #b3b3b3;
+    letter-spacing: 1px;
+    padding-left: 6px;
+}
+.choose_box{
+    height: 4.5em;
+    line-height: 4.5em;
+}
+.choose_box div{
+    float: left;
+}
+.choose_box a{
+    float: right;
+}
+.choose_box img{
+	width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+.choose_box span{
+	color: #aaa;
+}
+#login_btn{
+    width: 100%;
+    display: block;
+    padding:3% 0 ;
+    background: #d8d8d8;
+    border: 0;
+    font-size: 1.4em;
+    font-family: "Microsoft YaHei";
+    color:white;
+    border-radius: 4px;
+}
+.other_login{
+    width: 80%;
+    height: 15px;
+    position: absolute;
+    top:75%;
+    margin: 0 10%;
+}
+.other_login .other,.other_login span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.other_login .other{
+    width: 28%;
+    height: 8px;
+    border-bottom:1px solid #2f2c59;
+}
+.other_login span{
+    width:40%;
+}
+.other_choose{
+    width: 74%;
+    top:83.5%;
+    position: absolute;
+    margin: 0 13%;
+}
+.login_bg .other_choose a{
+    display: block;
+    float: left;
+    border: 2px solid #505887;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+}
+.other_choose a:nth-child(2) {
+    left:42%;
+}
+.other_choose a:nth-child(3) {
+    left:80%;
+}
+.other_choose a img{
+    width: 60%;
+    padding: 14% 0;
+}

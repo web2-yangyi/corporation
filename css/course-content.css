@@ -1,0 +1,143 @@
+#arrow-left img{
+    height: 22px;
+}
+#arrow-left {
+	float: left;
+    width: 10%;
+    text-align: center;
+    padding-top: 14px;
+}
+
+#magnifier-txt{
+	width: 80%;
+}
+.global {
+    min-width: 320px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.primary {
+    padding: 0px 13px 0 13px;
+    position: relative;
+}
+.primary .title {
+    font-size: 1.3125rem;
+    color: #111;
+    padding: 18px 0 0px;
+    line-height: 31px;
+    font-weight: 700;
+}
+.primary .titles {
+    font-size: 1.3125rem;
+    color: #111;
+    line-height: 31px;
+    font-weight: 700;
+}
+.primary .meta {
+    line-height: 1.5625rem;
+    color: #111;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top:1px solid #e0e0e0; 
+    clear: both;
+}
+
+.primary .meta span{
+
+	color: #888888;
+}
+.primary .meta img{
+	width: 30px;
+	height:26px;
+	margin-right: 10px;
+	vertical-align:middle;
+	margin-bottom:6px;
+}
+.primary .cont {
+    padding-bottom: 15px;
+}
+.primary .cont .text {
+    line-height: 1.5625rem;
+    word-wrap: break-word;
+    margin-bottom: 16px;
+    text-align: justify;
+    word-break: break-all;
+}
+.cont img {
+    margin-bottom: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.primary .meta .reading .maps{
+	color: #E97CA1;
+}
+.fl{
+	float: left;
+	width:17%;
+}
+.fr{
+	float: left;
+	width:83%;
+	color: #888888;
+}
+.course-place{
+	margin-bottom: 10px;
+}
+@media screen and (min-width:321px) and (max-width:413px){
+.fl{
+    width:14%;
+}
+.fr{
+    width:86%;
+}
+}
+@media screen and (min-width:414px){
+.fl{
+    width:13%;
+}
+.fr{
+    width:87%;
+}
+}
+
+.invitation-btn {
+    width: 86%;
+    margin: 10px auto;
+    background: #E97CA1;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.invitation-btn  a{
+	color: #FFFFFF;
+	
+    font-size: 17px;
+}
+#text{
+	border-bottom:1px solid #e0e0e0; 
+	padding-bottom: 10px;
+}
+.course-content-bg {
+    margin-bottom: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.time{
+	line-height: 1.5625rem;
+    color: #111;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+.time span{
+	color: #888888;
+}
+.names{
+	line-height: 1.5625rem;
+    color: #111;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}

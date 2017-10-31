@@ -1,0 +1,62 @@
+/*内容代码*/
+
+#arrow-left img{
+    height: 22px;
+}
+#arrow-left {
+	float: left;
+    width: 10%;
+    text-align: center;
+    padding-top: 14px;
+}
+
+#magnifier-txt{
+	width: 80%;
+}
+/*内容代码*/
+
+.invitation-box{
+	width: 86%;
+	margin: 0px auto;
+	margin-top: 30px;
+	background: #FFFFFF;
+	border-radius: 4px;
+	text-align: center;
+	background:url(../img/Membership-bg.png) no-repeat center center;
+	height: 436px;
+	background-size:cover;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	position: relative;
+}
+.invitation-user{
+	margin-top: 96px;
+	height:80px;
+	height: 80px;
+	border-radius: 80px;
+	
+}
+.invitation-logo{
+	width: 54px;
+    height: 54px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.invitation-box p{
+	line-height: 36px;
+}
+.invitation-txt{
+	text-align: left;
+	padding-left: 3rem;
+	margin-top: 10px;
+}
+@media screen and (min-width:321px) and (max-width:413px){
+.invitation-txt {
+    padding-left: 5rem;
+}
+}
+@media screen and (min-width:414px){
+.invitation-txt {
+    padding-left: 6rem;
+}
+}

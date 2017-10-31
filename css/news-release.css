@@ -1,0 +1,172 @@
+#arrow-left img{
+    height: 22px;
+}
+#arrow-left {
+	float: left;
+    width: 10%;
+    text-align: center;
+    padding-top: 14px;
+}
+#more img{
+	width: 24px;
+    height: 22px;
+}
+#more{
+	width: 24px;
+    height: 22px;
+    float: right;
+    width: 16%;
+    font-size: 18px;
+}
+#magnifier-txt{
+	width: 74%;
+}
+.password-bnt{
+	color: #494949;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #d7d7d7;
+    overflow: hidden;
+    position: relative;
+    padding-left: 12px;
+    color: #888888;
+    line-height: 50px;
+}
+
+.password-bnt span{
+	font-size: 1.1rem;
+    color: #666666;
+}
+.password-bnt .maps{
+	margin-left: 10px;
+	 width: 5%;
+}
+.password-bnt input {
+    border: 0 none;
+    background: #fff;
+    line-height: 50px;
+    padding: 0 0 0 10px;
+    outline: 0;
+    font-size: 1.1rem;
+    width: 80%;
+}
+.append-bnt-box{
+	background: #FFFFFF;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 7px 9px;
+     border-top: 1px solid rgba(0,0,0,.15);
+     z-index: 99999999999;
+}
+
+.add-txt{
+	display: block;
+    width: 100px;
+    height: 32px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background:#e97ca1;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+}
+.file-img-box input{
+	border: 0;
+    outline: none;
+    font-size: 999px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.file-img-box{
+	position: absolute;
+    top: 7px;
+    left: 156px;
+    width: 100px;
+    height: 32px;
+    overflow: hidden;
+    z-index: 0;
+}
+.append-bnt-box img{
+	width: 22px;
+	height: 24px;
+	margin-top: 4px;
+}
+#delete-btn{
+	width: 16px;
+	height: 16px;
+}
+.delete-btn-box{
+	padding: 6px 6px;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+
+.rightdiv{
+      float: left;
+    width: 33.33333333%;
+    position: relative;
+}
+
+.rightinput{
+	position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 98px;
+}
+.list {
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.deleteDiv{
+	    padding: 6px 6px;
+	        width: 10%;
+}
+.allDiv{
+	    margin: 0px 10px 6px 10px;
+    padding: 0px 0px 14px 0px;
+}
+.imgs{
+	width: 100%;
+    height: 98px;
+    display: block;
+}
+.pimg{
+	  width: 16px;
+    height: 16px;
+}
+.leftDiv{
+	float: right;
+    width: 64.66666667%;
+    min-height: 49px;
+    overflow: hidden;
+}
+.txt{
+	    color: #999;
+    line-height: 22px;
+    margin-bottom: 15px;
+    min-height: 49px;
+    overflow: hidden;
+}
